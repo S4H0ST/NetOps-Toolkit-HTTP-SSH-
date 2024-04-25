@@ -1,0 +1,7 @@
+paramiko
+ipcalc
+pydantic
+argparse
+configparse
+six
+art
