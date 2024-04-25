@@ -19,11 +19,11 @@ def lectura(nombre_archivo:str) -> list[str]:
 ``envio_post`` para el envio y recoger la respuesta literal de la solicitud
 ```python
 def envio_post(array_correos:list[str]):
-    url = 'https://gestion2.urjc.es/directorio/'
+    url = ' ' #añadir servidor web
     array_respuestas = []
 
     for correo in array_correos:
-        payload = {'buscador': correo}
+        payload = {'buscador': correo} # aqui añadir {clave, valor}
         response = requests.post(url, data=payload)
         contenido_correo = obtener_src(response.text)
         array_respuestas.append(contenido_correo)

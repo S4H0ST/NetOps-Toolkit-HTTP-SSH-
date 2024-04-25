@@ -13,15 +13,11 @@ El fichero .env tiene que seguir el siguiente formato:
 [CONFIG]
 # Configuración de redes separadas por comas
 # REDES APS WIFI:
-#   mostoles: 10.10.20.0/23
-#   alcorcon: 10.10.30.0/23
-#   fuenlabr: 10.10.40.0/23
-#   vicalvar: 10.10.11.0/24
-#   aranjuez: 10.10.10.0/24
-#   quintana: 10.10.16.0/24
-#   quintan2: 10.10.15.0/24
-#   mbecerra: 10.10.12.0/24
+#   m: 10.xx.xx.xx/23
+#   al: 10.xx.xx.xx/23
+#   
 redes=red1,red2,red3
+
 # Usuario de acceso SSH
 usuario=nombre_de_usuario
 # Clave del usuario SSH
